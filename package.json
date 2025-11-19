@@ -1,21 +1,14 @@
 {
-  "name": "staffweb",
+  "name": "my-admin-dashboard",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/imasillycoder/staffweb.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/imasillycoder/staffweb/issues"
-  },
-  "homepage": "https://github.com/imasillycoder/staffweb#readme"
+  "dependencies": {
+    "next": "13.x",
+    "react": "18.x",
+    "react-dom": "18.x"
+  }
 }
